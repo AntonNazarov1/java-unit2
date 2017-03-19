@@ -1,4 +1,4 @@
-import java.util.Scanner;           // не работает
+import java.util.Scanner;
 
 
 public class u2_e7 {
@@ -9,18 +9,16 @@ public class u2_e7 {
 
         for (int i = 2; i < a; i++){
             if ( a%i == 0 ) {
-                System.out.println("простое");
-
+                System.out.println("оно составное");
+                return;
             }
-                System.out.println("составное");
-
+            else {
+                System.out.println("оно простое");
+            }
+            break;
         }
-
-
-
     }
-
-    }
+}
 
 
 
